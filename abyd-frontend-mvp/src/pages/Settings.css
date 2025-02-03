@@ -1,0 +1,33 @@
+.settings {
+  display: flex;
+}
+
+.settings .user-info {
+  display: flex;
+  align-items: center;
+  height: 20vh;
+  width: 80vw;
+  border-top: 1px solid #CECECE;
+  border-bottom: 1px solid #CECECE;
+  margin: 20px 0px;
+}
+
+.settings .user-info img {
+  margin-right: 40px;
+}
+
+.settings .account-settings h3 {
+  margin: 20px 0px;
+}
+
+.settings .options div {
+  display: flex;
+  align-items: center;
+  height: 42px;
+  width: 50vw;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 5px 15px;
+  background-color: #F8F8F8;
+}

@@ -1,0 +1,181 @@
+/* Container for the entire page (Flexbox to make sure footer stays at the bottom) */
+.chatbox-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    /* Ensure full viewport height */
+}
+
+/* Main content area */
+.chatbox-container .content {
+    flex-grow: 1;
+    /* Take all available space, pushing footer down */
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    /* background-color: #f9f9f9; */
+}
+
+/* Footer that stays at the bottom of the page */
+.chatbox-container .footer {
+    background-color: #FFFFF0;
+    /* color: white; */
+    /* text-align: center; */
+    justify-content: space-between;
+    display: flex;
+    padding: 10px;
+    /* margin-top: ; */
+    margin-bottom: 30px;
+    font-size: 14px;
+    align-items: center;
+    /* Ensure footer stays at the bottom */
+}
+
+/* Other existing styles remain unchanged */
+.chatbox-container .buildHead {
+    font-size: 26px;
+    text-align: center;
+    margin-top: 120.18px;
+    font-weight: 550;
+}
+
+.chatbox-container .def {
+    margin-top: 12px;
+    text-align: center;
+    font-size: 16px;
+    color: #7E7E7E;
+    font-weight: 550;
+}
+
+.chatbox-container .questionNum {
+    color: #0D47A1;
+    margin-top: 56.08px;
+    font-weight: 550;
+}
+
+.chatbox-container .Quest {
+    font-size: 16px;
+    margin-top: 27.55px;
+    font-weight: 550;
+}
+
+.chatbox-container .Ans {
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 1px solid #0D47A1;
+    color: #0D47A1;
+    cursor: text;
+    border-radius: 5px;
+    width: 100%;
+    height: 40px;
+    outline: none;
+    margin-top: 20px;
+}
+
+.chatbox-container .Chatbtn {
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 1px solid #0D47A1;
+    color: #0D47A1;
+    cursor: pointer;
+    border-radius: 5px;
+    height: 40px;
+    outline: none;
+    margin-top: 20px;
+}
+
+.chatbox-container .chatbtn-container {
+    display: flex;
+    align-items: end;
+    /* justify-content: center; */
+    flex-direction: column;
+}
+
+.chatbox-container ::placeholder {
+    color: #DEDEDE;
+    opacity: 1;
+    /* Firefox */
+}
+
+.chatbox-container #myProgress {
+    width: 100%;
+    background-color: #D9D9D9;
+    border-radius: 4px;
+}
+
+.chatbox-container #myBar {
+    width: 5.56%;
+    height: 6.57px;
+    border-radius: 4px;
+    background-color: #0D47A1;
+}
+
+.chatbox-container .footer box-icon {
+    font-size: 24px;
+    /* Adjust the icon size */
+    color: white;
+    /* Icon color */
+}
+
+/* Button styling */
+.chatbox-container .help {
+    background-color: #FFFFF0;
+    /* Button background */
+    padding: 8px 16px;
+    border-radius: 13px;
+    /* Rounded corners */
+    cursor: pointer;
+    /* Pointer cursor on hover */
+}
+
+.chatbox-container .user-content .box-icon {
+    height: 100px;
+    width: 100px;
+}
+
+
+.chatbox-container .user-content {
+    align-items: center;
+}
+
+.chatbox-container .Abyd {
+    width: 90.44px;
+    height: 30.86px;
+}
+
+.chatbox-container .arrow {
+    height: 41px;
+    width: 22px;
+}
+
+.chatbox-container .savetext {
+    font-size: 16px;
+    color: #7E7E7E;
+    font-weight: 550;
+}
+
+.chatbox-container .saveandnext {
+    margin-top: 24.21px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.chatbox-container .yes-no-btn-container {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.chatbox-container .yes-no-btn {
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 1px solid #0D47A1;
+    color: #0D47A1;
+    cursor: pointer;
+    border-radius: 5px;
+    height: 40px;
+    outline: none;
+    width: 100%;
+}

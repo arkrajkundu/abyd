@@ -1,0 +1,117 @@
+.dashboard-lc-container {
+  margin-top: 20px;
+}
+
+.dashboard-lc-container .section {
+  margin-bottom: 30px;
+}
+
+.dashboard-lc-container .section-title {
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.dashboard-lc-container .required {
+  color: #D32F2F;
+}
+
+.dashboard-lc-container .already-have {
+  color: #388E3C;
+}
+
+.dashboard-lc-container .certification-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FFF9F9;
+  border: 1px solid #CECECE;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 10px;
+  max-width: 65vw;
+}
+
+.dashboard-lc-container .certification-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.dashboard-lc-container .certification-title {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 4px;
+}
+
+.dashboard-lc-container .certification-subtitle {
+  font-size: 12px;
+  color: #7E7E7E;
+}
+
+.dashboard-lc-container .checkbox {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  accent-color: #137333;
+}
+
+.dashboard-lc-container {
+  margin-top: 20px;
+}
+
+.dashboard-lc-container .section {
+  margin-bottom: 30px;
+}
+
+.dashboard-lc-container .section-title {
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.dashboard-lc-container .required {
+  color: #D32F2F;
+}
+
+.dashboard-lc-container .already-have {
+  color: #388E3C;
+}
+
+.dashboard-lc-container .certification-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FFF9F9;
+  border: 1px solid #CECECE;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 10px;
+  max-width: 65vw;
+  cursor: pointer;
+}
+
+.dashboard-lc-container .certification-item .certification-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.dashboard-lc-container .certification-title {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 4px;
+}
+
+.dashboard-lc-container .checkbox {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  accent-color: #137333;
+}
+
+.dashboard-lc-container .certification-details-text {
+  font-size: 12px;
+  color: #7E7E7E;
+  margin-top: 10px;
+}

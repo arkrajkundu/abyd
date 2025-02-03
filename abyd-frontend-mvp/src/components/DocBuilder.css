@@ -1,0 +1,50 @@
+/* Global reset and layout styles */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body {
+  margin: 0;
+  font-family: Roboto;
+  display: flex;
+  height: 100vh; /* Full viewport height */  
+}
+
+/* Chatbox container styles */
+#chat-container {
+  flex: 34;
+  /* width: 496.71px; */
+  padding: 20px;
+  background-color: #FFFFF0;
+  border-right: 2px solid #ddd;
+  height: 100%; /* Ensure it takes full height */
+}
+
+/* PDF viewer container styles */
+#pdf-container {
+  flex: 76;
+  /* width: 943.08px; */
+  /* padding: 20px; */
+  background-color: #FFFFF0;
+  overflow: auto;
+  margin-left: 100px #0D47A1;
+  height: 100%; /* Ensure it takes full height */
+}
+
+/* Ensure PDF canvas takes full container height */
+#pdf-canvas {
+  width: 100%;
+  height: 100%; /* Full height to match the container */
+}
+
+.user-view{
+  height: 75.75px;
+  border-bottom: 2px solid #ddd;
+  text-align: right;
+  align-items: center;
+}
+
+.pdf{
+  padding-left: 20px;
+  padding-right: 20px;
+  /* background-color: #0D47A1; */
+  /* margin-left: 20px; */
+  /* margin-right: 20px; */
+}

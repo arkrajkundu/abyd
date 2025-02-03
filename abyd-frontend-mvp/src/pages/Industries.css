@@ -1,0 +1,77 @@
+.industries {
+  padding: 2rem 1rem;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.industries h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.industries-container {
+  display: flex;
+  overflow-x: auto; /* Enable horizontal scrolling */
+  gap: 2rem;
+  flex-wrap: wrap;
+  /* width: 100vw; */
+  
+  padding: 1rem 0;
+  scroll-snap-type: x mandatory; /* Smooth snap scrolling */
+  justify-content: center; /* Centers the cards on larger screens */
+}
+
+.industry-card {
+  flex: 0 0 300px; /* Fixed width for each card */
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  scroll-snap-align: center; /* Align card to center during scroll */
+  align-content: center;
+}
+
+.industry-card:hover {
+  transform: translateY(-5px);
+  
+}
+
+.industry-icon {
+  width: 150px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.industry-card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
+  color: #333;
+}
+
+.industry-card p {
+  font-size: 0.95rem;
+  color: #666;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .industries-container {
+    flex-direction: row; /* Keep horizontal scrolling on small screens */
+  }
+
+  .industry-card {
+    flex: 0 0 250px; /* Reduce size for smaller screens */
+  }
+
+  .industry-icon {
+    width: 80px; /* Smaller icons for smaller screens */
+  }
+}
+
+.industries-container::-webkit-scrollbar {
+  display: none; /* Hides the scrollbar for a cleaner look */
+}

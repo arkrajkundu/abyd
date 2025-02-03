@@ -1,0 +1,110 @@
+.best-practices-container {
+  margin-top: 20px;
+}
+
+.best-practices-container .best-practices-title {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #333;
+  font-weight: 400;
+}
+
+.best-practices-container .section {
+  max-width: 75vw;
+}
+
+.best-practices-container .section-title-do {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #388E3C;
+  font-weight: 400;
+}
+
+.best-practices-container .section-title-dont {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #D32F2F;
+  font-weight: 400;
+}
+
+.best-practices-container .section-content {
+  background-color: #fff9f9;
+  border: 1px solid #e3e3dd;
+  border-radius: 8px;
+  padding: 15px;
+}
+
+.best-practices-container .best-practices-list {
+  list-style-type: disc;
+  margin-left: 20px;
+  color: #555;
+}
+
+.best-practices-container .best-practices-list li {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.best-practices-container {
+  width: 100%;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.best-practices-container .section {
+  margin: 15px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.best-practices-container .dropdown-header {
+  background-color: #f7f7f7;
+  padding: 15px;
+  cursor: pointer;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.best-practices-container .section-title {
+  margin: 0;
+  font-size: 14px;
+}
+
+.best-practices-container .section-content {
+  padding: 15px;
+  background-color: #f9f9f9;
+}
+
+.best-practices-container .section-section {
+  margin-bottom: 15px;
+}
+
+.best-practices-container .section-title-do,
+.best-practices-container .section-title-dont {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+}
+
+.best-practices-container .best-practices-list {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.best-practices-container .best-practices-list li {
+  margin: 5px 0;
+  font-size: 0.95em;
+}
+
+.best-practices-container .bp-rule {
+  font-size: 0.85em;
+  color: #555;
+  margin-left: 5px;
+}
+
+.best-practices-container section-title-do {
+  color: green;
+}
+
+.best-practices-container section-title-dont {
+  color: red;
+}

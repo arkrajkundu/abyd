@@ -1,0 +1,120 @@
+.dashboard-overview {
+  display: flex;
+}
+
+.dashboard-overview .left {
+  flex: 1;
+  margin-right: 40px;
+}
+
+.dashboard-overview .right {
+  flex: 2;
+}
+
+.dashboard-overview .left .compliance-toolkit h2 {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.dashboard-overview .left .compliance-toolkit p {
+  margin-bottom: 10px;
+}
+
+.dashboard-overview .left .compliance-toolkit ul {
+  margin-left: 20px;
+}
+
+.dashboard-overview .btndiv {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dashboard-overview button {
+  background-color: #0D47A1;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+
+.dashboard-overview button:hover {
+  background-color: #165fcd;
+}
+
+.dashboard-overview .left .compliance-progress {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dashboard-overview .left .compliance-progress h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.dashboard-overview .left .legal-advisory h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.dashboard-overview .left .legal-advisory p {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.dashboard-overview .do-card {
+  border-radius: 11px;
+  border: 2px solid #CECECE;
+  margin: 15px;
+  padding: 20px;
+}
+
+.dashboard-overview .progress-circle {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #388e3c;
+  position: relative;
+}
+
+.dashboard-overview .progress-circle svg {
+  transform: rotate(-90deg);
+  /* Ensures progress starts from the top */
+}
+
+.dashboard-overview .progress-circle span {
+  position: absolute;
+  font-size: 24px;
+  color: #388e3c;
+}
+
+.dashboard-overview .right .checklist .checklist-header {
+  border-bottom: 1px solid #CECECE;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.dashboard-overview .progress {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.dashboard-overview .progress p {
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+.dashboard-overview .dashboard-overview-card h4 {
+  font-size: 18px;
+}

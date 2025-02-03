@@ -1,0 +1,56 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.header .logout-btn {
+  padding: 4px 24px;
+  background-color: #fffff0;
+  color: #295ca9;
+  border: 1px solid #295ca9;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.header .logout-btn:hover {
+  color: #fffff0;
+}
+
+.header .search-bar {
+  padding: 10px;
+  width: 40%;
+  border: 1px solid #ccc;
+  background-color: transparent;
+  border-radius: 5px;
+}
+
+.header .user-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header .profile-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.header .grant-access-btn button {
+  border-radius: 20px;
+  margin: 0;
+  margin-right: 20px;
+  /* padding: 8px; */
+  background-color: #388E3C;
+  color: #fff;
+  width: 168px;
+  height: 40px;
+  font-size: 14px;
+}
+
+.header .grant-access-btn button svg {
+  margin-right: 10px;
+}

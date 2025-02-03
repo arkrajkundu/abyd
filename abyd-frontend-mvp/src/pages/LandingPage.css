@@ -1,0 +1,220 @@
+/* Global Reset */
+html {
+  scroll-behavior: smooth;
+}
+
+body,
+h1,
+h2,
+h3,
+p,
+a,
+button {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.landing-page {
+  text-align: center;
+  color: #333;
+}
+
+.landing-page .navbar {
+  position: sticky;
+  /* Makes the navbar stay fixed at the top */
+  top: 0;
+  /* Ensures it sticks to the top of the page */
+  z-index: 1000;
+  /* Keeps it above other elements on the page */
+  background-color: #fff;
+  /* Background color to avoid transparency issues */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  /* Optional: Adds a slight shadow for visibility */
+  padding: 1rem 2rem;
+  /* Adjust padding for better spacing */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.landing-page .menu {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.landing-page .menu a {
+  text-decoration: none;
+  color: #333;
+  /* Adjust the color as needed */
+  font-weight: 500;
+}
+
+.landing-page .menu a:hover {
+  color: #0D47A1;
+  /* Change to your hover color */
+}
+
+.landing-page .actions {
+  display: flex;
+  gap: 1rem;
+}
+
+.landing-page button {
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+.landing-page button.sign-in {
+  background-color: transparent;
+  color: #333;
+  border: 1px solid #0D47A1;
+}
+
+.landing-page button.get-demo {
+  background-color: #0D47A1;
+  color: #fff;
+  align-items: center;
+  align-content: center;
+  border: 1px solid #0D47A1;
+}
+
+.landing-page button a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.landing-page button.get-demo:hover {
+  color: #fff;
+  background-color: #0D47A1;
+  border-color: #0056b3;
+}
+
+.landing-page button.sign-in:hover {
+  color: #fff;
+  background-color: #0D47A1;
+  border-color: #0056b3;
+  border-radius: 40px;
+}
+
+
+.landing-page .Abyd {
+  /* margin-left: 28.64px;
+  margin-top: 20.11px; */
+  width: 90.44px;
+  height: 30.86px;
+  /* margin-bottom: 47px; */
+}
+
+.landing-page .menu a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.landing-page .actions .sign-in {
+  background: none;
+  border: none;
+  font-size: 1rem;
+  color: #333;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+
+.landing-page .actions .get-demo {
+  background-color: #0D47A1;
+  border: none;
+  padding: 0.5rem 1rem;
+  color: white;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+/* .hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f9f9f9;
+  padding: 4rem 1rem;
+} */
+.landing-page section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f9f9f9;
+  padding: 4rem 1rem;
+}
+
+.landing-page .hero-content h1 {
+  font-size: 2.5rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.landing-page .hero-content span {
+  color: #0D47A1;
+}
+
+.landing-page .hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.landing-page .hero-content .cta {
+  background-color: #0D47A1;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  color: white;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.landing-page .hero-images {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.landing-page .hero-images img {
+  max-width: 150px;
+  border-radius: 10px;
+}
+
+
+/* Animation for fade-in effect */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+    /* Slightly move up */
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Hidden state before animation */
+.landing-page .hidden {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(20px);
+  transition: all 0.3s ease-in-out;
+  /* Smooth transition */
+}
+
+/* Fade-in animation when section is visible */
+.landing-page .fade-in {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+  animation: fadeIn 0.8s ease-in-out;
+  /* Adjust duration as needed */
+}

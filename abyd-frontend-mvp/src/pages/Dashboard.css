@@ -1,0 +1,217 @@
+.dashboard {
+  display: flex;
+}
+
+.dashboard .main-content {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.dashboard .overview .welcome-back-message {
+  font-weight: 500;
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.dashboard .overview h2 {
+  font-size: 14px;
+  font-weight: 400;
+  color: #555;
+}
+
+.dashboard .tabs {
+  display: flex;
+  gap: 20px;
+  margin-top: 15px;
+  border-bottom: 1px solid #ccc;
+}
+
+.dashboard .tab {
+  cursor: pointer;
+  padding: 5px;
+  font-weight: 300;
+  font-size: 13px;
+}
+
+.dashboard .tab.active {
+  border-bottom: 2px solid #0D47A1;
+  color: #0D47A1;
+}
+
+.dashboard .notifications {
+  margin-right: 20px;
+}
+
+/* Card Styles */
+.dashboard .cards,
+.dashboard .cards-secondary {
+  display: flex;
+  gap: 19px;
+  margin-top: 20px;
+  margin-right: 50px;
+  margin-bottom: 30px;
+}
+
+.dashboard .card,
+.dashboard .scard {
+  position: relative;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  flex: 1;
+}
+
+.dashboard .first-time {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.dashboard .first-time .first-time-message {
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  padding: 30px;
+  text-align: center;
+}
+
+.dashboard .first-time .first-time-message h3 {
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.dashboard .first-time .first-time-message .message {
+  font-weight: 300;
+  font-size: 16px;
+  margin-bottom: 20px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.dashboard .first-time img {
+  margin: 20px;
+  width: 250px;
+}
+
+.dashboard .first-time button {
+  background-color: #0D47A1;
+  border: 1px solid #0D47A1;
+  color: white;
+  padding: 5px 40px;
+  border-radius: 6px;
+  font-weight: 300;
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+.dashboard .suggested-label {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #3263af;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 400;
+  visibility: hidden;
+}
+
+.card.suggested .suggested-label {
+  visibility: visible;
+}
+
+.dashboard .alert-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  visibility: hidden;
+}
+
+.scard.has-alert .alert-icon {
+  visibility: visible;
+}
+
+.dashboard-overview .right .dashboard-overview-cards {
+  display: flex;
+  gap: 15px;
+}
+
+.dashboard .cards .ongoing-report {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.dashboard .cards .ongoing-report .top-content {
+  font-size: 15px;
+  text-align: center;
+}
+
+.dashboard .cards .ongoing-report .top-content span {
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.dashboard .document-builder {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.dashboard .document-builder span {
+  font-size: 12px;
+  margin-bottom: 10px;
+  font-weight: 300;
+}
+
+.dashboard .document-builder .top-content {
+  text-align: center;
+}
+
+.cards-secondary .best-practices,
+.cards-secondary .step-by-step-guide,
+.cards-secondary .alerts-updates,
+.cards-secondary .licenses {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.cards-secondary .best-practices .mid-text,
+.cards-secondary .alerts-updates .mid-text,
+.cards-secondary .step-by-step-guide .mid-text {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: justify;
+  margin: 10px;
+  margin-top: 30px;
+}
+
+.dashboard .document-tags span {
+  display: block;
+  padding: 5px;
+  border-radius: 4px;
+  margin-bottom: 5px;
+}
+
+.dashboard .overview button {
+  margin-top: 10px;
+  padding: 4px 24px;
+  background-color: #fffff0;
+  color: #295ca9;
+  border: 1px solid #295ca9;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.dashboard button:hover {
+  background-color: #333399;
+}

@@ -1,0 +1,97 @@
+.how-it-works {
+  padding: 2rem 1rem;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.how-it-works h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.steps-container {
+  display: flex;
+  overflow-x: auto; /* Enable horizontal scrolling */
+  gap: 2rem;
+  padding: 1rem 0;
+  scroll-snap-type: x mandatory; /* Smooth snap scrolling */
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.step {
+  flex: 0 0 300px; /* Fixed width for each step */
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  scroll-snap-align: center; /* Align step to center during scroll */
+  align-content: center;
+}
+
+.step:hover {
+  transform: translateY(-5px);
+}
+
+.step img {
+  width: 150px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.step-details {
+  text-align: center;
+}
+
+.step-number {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0D47A1;
+  color: #fff;
+  border-radius: 50%;
+  margin: 0 auto 1rem auto;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.step h3 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.step ul {
+  list-style-type: disc;
+  margin: 0;
+  padding-left: 1.5rem; /* Indent for bullets */
+  color: #666;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.step-arrow {
+  width: 30px;
+  height: auto;
+  align-self: center;
+}
+
+@media (max-width: 768px) {
+  .steps-container {
+    flex-direction: row; /* Keep horizontal scrolling on small screens */
+  }
+
+  .step {
+    flex: 0 0 250px; /* Reduce size for smaller screens */
+  }
+}
+
+.steps-container::-webkit-scrollbar {
+  display: none; /* Hides the scrollbar */
+}

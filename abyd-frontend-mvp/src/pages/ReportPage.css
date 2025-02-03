@@ -1,0 +1,23 @@
+.report-page {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+.report-page .questions {
+  border: 5px solid pink;
+  flex: 1;
+}
+
+.report-page .live-report {
+  border: 5px solid lightblue;
+  flex: 1;
+}
+
+.report-page .questions .header {
+  padding: 15px;
+}
+
+.report-page .questions .footer img {
+  width: 100px;
+}

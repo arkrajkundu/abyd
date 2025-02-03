@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.chat-container2 {
+  /* width: 400px; */
+  /* margin: 20px auto; */
+  /* margin-top: none; */
+  font-family: Roboto;
+  padding-top: 0px;
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid #ccc; */
+  border-radius: 8px;
+  overflow: hidden;
+  margin-left: 40px;
+  z-index: 1;
+}
+
+.chat-container2 .dash2 {
+  margin-top: 28px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+
+.chat-container2 .chat-abyd-head2 {
+  margin-top: 11.6px;
+  font-size: 24px;
+  margin-bottom: 8.46px;
+}
+
+.chat-container2 .chat-abyd-def2 {
+  font-size: 14px;
+  color: #7E7E7E;
+  margin-bottom: 23px;
+}
+
+.chat-container2 .chat-abyd-with2 {
+  font-size: 14px;
+  color: #333333;
+  margin-bottom: 17px;
+  display: flex;
+  align-items: center;
+  /* Aligns items vertically */
+  gap: 10px;
+  /* Adds space between the image and text */
+  font-size: 16px;
+  /* Adjust font size if necessary */
+}
+
+
+.chat-container2 .manImage2 {
+  height: 32px;
+  width: 32px;
+  /* border-radius: 50%; Optional: makes the image circular */
+}
+
+.chat-container2 .chat-text2 {
+  display: inline-block;
+  /* Ensures proper spacing with the image */
+}
+
+
+.chat-container2 .chat-abyd2 {
+  margin-top: 27px;
+  border-top: 1px solid #CECECE;
+  border-bottom: 1px solid #CECECE;
+}
+
+.chat-container2 .chat-box2 {
+  height: 80vh;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  background-color: #FFFFF0;
+  margin-left: 175px;
+  margin-right: 175px;
+}
+
+.chat-container2 .message2 {
+  margin: 10px 0;
+  max-width: 60%;
+  /* Constrain message width */
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-container2 .messageText2 {
+  background-color: #C3C3C3;
+  padding: 8px 12px;
+  /* border-radius: 16px; Rounded corners */
+  word-wrap: break-word;
+  /* Break long words to wrap within the bubble */
+  white-space: pre-wrap;
+  /* Preserve line breaks and allow wrapping */
+  overflow-wrap: break-word;
+  /* Ensure content wraps even with long URLs */
+  text-align: left;
+  /* Align text to the left for natural reading */
+}
+
+.chat-container2 .message-left2 {
+  align-self: flex-start;
+
+  /* background-color: #C3C3C3; */
+
+}
+
+.chat-container2 .message-right2 {
+  align-self: flex-end;
+  /* background-color: #C3C3C3; */
+  /* background-color: #007bff; */
+}
+
+.chat-container2 .timestamp2 {
+  font-size: 0.8em;
+  color: #888;
+  margin-bottom: 5px;
+  /* Add space between time and message text */
+  text-align: left;
+  /* Align timestamp with message text */
+}
+
+
+.chat-container2 .input-area2 {
+  display: flex;
+  position: fixed;
+  /* Fix the input box to the bottom of the viewport */
+  bottom: 0;
+  /* Align it to the bottom */
+  /* width: 100%; Ensure it spans the full width */
+  /* background-color: #fff; Add background color for clarity */
+  border-top: 1px solid #ccc;
+  padding: 10px;
+  width: 50%;
+  text-align: center;
+  align-content: center;
+  margin-left: 70px;
+  margin-right: 70px;
+  z-index: 2;
+  /* box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1); Optional shadow for visual separation */
+}
+
+.chat-container2 .input-box2 {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  outline: none;
+  background-color: #ECECEC;
+  margin-right: 10px;
+  border-radius: 8px;
+  width: 611px;
+}
+
+.chat-container2 .send-button2 {
+  padding: 10px 20px;
+  border: none;
+  background-color: #0D47A1;
+  color: white;
+  cursor: pointer;
+  border-radius: 7px;
+  width: 120px;
+}
+
+.chat-container2 .send-button:hover2 {
+  background-color: #0056b3;
+}
+
+.chat-container2 .messageUser2 {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.chat-container2 .userName2 {
+  margin-left: 36px;
+  text-align: center;
+  align-content: center;
+}
+
+.chat-container2 .userName2 {
+  margin-top: 5px;
+  /* Add space between message and username */
+  font-size: 0.85em;
+  color: #555;
+  text-align: right;
+  /* Align username to the right */
+}
+
+.chat-container2 .timeandMessage2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-container2 .NavContainer2 {
+  display: flex;
+  flex-direction: column;
+  /* Stack elements vertically */
+  justify-content: space-between;
+  /* Ensure proper spacing of child elements */
+  /* Center content horizontally */
+  height: 100%;
+  /* Ensure the container has a defined height */
+  max-height: 100vh;
+  /* Prevent content from overflowing the viewport */
+  overflow: hidden;
+  /* Prevent content from spilling outside the container */
+  padding: 0px;
+  border: 1px solid #CECECE;
+  border-radius: 22px;
+  width: 245px;
+  height: 95vh;
+  margin-left: 10px;
+}
+
+.chat-container2 .Abyd2 {
+  margin-left: 28.64px;
+  margin-top: 20.11px;
+  width: 90.44px;
+  height: 30.86px;
+  margin-bottom: 47px;
+}
+
+.chat-container2 .button-container2 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* Space out top and bottom button groups */
+  flex: 1;
+  /* Allow the container to expand to fill the parent */
+  width: 100%;
+  /* Match the width of the parent */
+  overflow-y: auto;
+  /* Enable scrolling if the content exceeds the height */
+}
+
+
+.chat-container2 .top-buttons2 {
+  display: flex;
+  flex-direction: column;
+  /* Arrange buttons in a column */
+  align-items: center;
+  /* Center horizontally */
+  gap: 10px;
+  /* Add spacing between buttons */
+  margin-bottom: auto;
+  /* Push this group to the top */
+}
+
+.chat-container2 .bottom-buttons2 {
+  display: flex;
+  flex-direction: column;
+  /* Arrange buttons in a column */
+  align-items: center;
+  /* Center horizontally */
+  gap: 10px;
+  /* Add spacing between buttons */
+  margin-top: auto;
+  /* Push this group to the bottom */
+  margin-bottom: 36px;
+}
+
+.chat-container2 .column-button2 {
+  width: 150px;
+  /* Adjust button width */
+  padding: 10px 20px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  text-align: left;
+  background-color: #FFFFF0;
+
+  color: #333;
+  cursor: pointer;
+  width: 211px;
+  border: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.chat-container2 .column-button2:hover {
+  background-color: #e0e0e0;
+  /* Hover effect */
+}
+
+.chat-container2 .selected2 {
+  background-color: #0D47A1;
+  /* Selected button color */
+  color: white;
+  /* border: 1px solid #0D47A1; Optional border for the selected button */
+}
+
+.chat-container2 .home__hand2 {
+  height: 24px;
+  width: 24px;
+}

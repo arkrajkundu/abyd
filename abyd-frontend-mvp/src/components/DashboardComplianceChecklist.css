@@ -1,0 +1,28 @@
+.checklist h3 {
+  font-size: 16;
+  color: #6A6A6A;
+  margin-top: 20px;
+}
+
+.checklist .required-section h4,
+.checklist .achieved-section h4 {
+  width: 178px;
+  height: 27px;
+  padding: 5px;
+  border-radius: 3px;
+  margin: 20px 0px;
+}
+
+.checklist .required-section h4 {
+  color: #D32F2F;
+  background-color: #D32F2F44;
+}
+
+.checklist .achieved-section h4 {
+  color: #388E3C;
+  background-color: #388E3C44;
+}
+
+.checklist li {
+  list-style-type: none;
+}

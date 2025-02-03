@@ -1,0 +1,125 @@
+/* Global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+
+.ai-doc-builder {
+  display: flex;
+}
+
+/* Main Content styles */
+.ai-doc-builder .main-content {
+  flex-grow: 1;
+  padding: 20px;
+  width: 100%;
+}
+
+.ai-doc-builder .title {
+  font-weight: 500;
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.ai-doc-builder .overview h2 {
+  font-size: 14px;
+  font-weight: 300;
+  color: #555;
+}
+
+.ai-doc-builder .category {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.ai-doc-builder label {
+  font-size: 15px;
+  margin: 0;
+}
+
+.ai-doc-builder select {
+  background-color: transparent;
+  padding: 3px;
+  font-size: 10px;
+}
+
+.ai-doc-builder .notifications {
+  margin-right: 20px;
+}
+
+.ai-doc-builder .cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  grid-auto-rows: auto;
+}
+
+.ai-doc-builder .cards .card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  position: relative;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.ai-doc-builder .recommended-label {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #E7E7DA;
+  color: #295ca9;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 400;
+  visibility: hidden;
+}
+
+.card.recommended .recommended-label {
+  visibility: visible;
+}
+
+.ai-doc-builder .cards .privacy .top-content,
+.ai-doc-builder .cards .cookie .top-content,
+.ai-doc-builder .cards .terms .top-content {
+  font-size: 15px;
+  text-align: justify;
+}
+
+.ai-doc-builder .cards .privacy .top-content p,
+.ai-doc-builder .cards .cookie .top-content p,
+.ai-doc-builder .cards .terms .top-content p {
+  margin-bottom: 25px;
+}
+
+.ai-doc-builder .cards .privacy .top-content span,
+.ai-doc-builder .cards .cookie .top-content span,
+.ai-doc-builder .cards .terms .top-content span {
+  font-size: 12px;
+  font-weight: 300;
+}
+
+
+
+.ai-doc-builder button {
+  margin-top: 10px;
+  padding: 4px 24px;
+  background-color: #fffff0;
+  color: #295ca9;
+  border: 1px solid #295ca9;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.ai-doc-builder button:hover {
+  background-color: #333399;
+}
